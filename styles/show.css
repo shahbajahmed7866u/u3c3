@@ -1,0 +1,22 @@
+#purchased_vouchers,#voucher_list{
+/* border: 2px solid red; */
+display: grid;
+grid-template-columns: repeat(4,1fr);
+gap: 20px;
+margin: 20px;
+}
+#purchased_vouchers>div>img,#voucher_list>div>img{
+width: 100%;
+}
+#purchased_vouchers>div,#voucher_list>div{
+/* width: 100%; */
+padding: 5%;
+border: 2px solid rgb(2, 219, 2);
+display: flex;
+flex-direction: column;
+text-align: center;
+}
+#purchased_vouchers>div>button,#voucher_list>div>button{
+width: 50%;
+margin: auto;
+}
