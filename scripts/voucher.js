@@ -50,7 +50,7 @@ var voucher_list=document.querySelector("#voucher_list")
         var price = document.createElement("p")
         price.innerText=elem.price
         var button = document.createElement("button")
-        button.innerText="Purchase"
+        button.innerText="BUY"
         button.setAttribute("class","buy_voucher")
         button.addEventListener("click",function(){
             haiya(elem)
